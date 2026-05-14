@@ -31,7 +31,17 @@ const Navbar = () => {
         >
           About
         </Link>
-        <Link className="desktopMenuListItem">Skills</Link>
+        <Link
+          activeClass="active"
+          to="skills"
+          spy={true}
+          smooth={true}
+          offset={-100}
+          duration={500}
+          className="desktopMenuListItem"
+        >
+          Skills
+        </Link>
         <Link className="desktopMenuListItem">projects</Link>
         <Link className="desktopMenuListItem">Experience</Link>
         <Link className="desktopMenuListItem">Resume</Link>

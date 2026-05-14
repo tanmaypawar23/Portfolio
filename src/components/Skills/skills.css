@@ -1,0 +1,13 @@
+#skills img {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+}
+.skillImg {
+  width: 80px;
+  transition: transform 0.3s ease;
+}
+
+.skillImg:hover {
+  transform: scale(1.1);
+}

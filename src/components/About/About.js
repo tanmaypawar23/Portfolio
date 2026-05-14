@@ -20,8 +20,6 @@ const About = () => {
             Full Stack Development and DSA skills while working on real-world
             projects using React, JavaScript, and Node.js.
           </p>
-
-          <button className="aboutBtn">Resume</button>
         </div>
       </div>
     </section>
