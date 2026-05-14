@@ -1,0 +1,103 @@
+#intro {
+  height: calc(100vh - 4rem);
+  width: 100vw;
+  max-width: 75rem;
+  margin: 0 auto;
+  overflow-x: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bg {
+  width: 350px;
+  height: 350px;
+  margin-right: 3rem;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+  margin-top: 1rem; /* pushes image below navbar */
+}
+
+.introContent {
+  max-width: 600px;
+  margin-left: 1.5rem;
+  padding: 2rem;
+  font-size: 3rem;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hello {
+  font-size: 1.75rem;
+  font-weight: 100;
+}
+.introName {
+  color: yellow;
+}
+.introPara {
+  font-size: 1rem;
+  font-weight: 300;
+  margin-top: 1rem;
+  line-height: 1.5;
+}
+.btn {
+  background: white;
+  margin-top: 1.5rem;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 2rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 600;
+}
+.btnImg {
+  height: 1rem;
+}
+
+/* TABLET */
+@media screen and (max-width: 840px) {
+  #intro {
+    flex-direction: column-reverse;
+    justify-content: center;
+    text-align: center;
+    padding-top: 4rem;
+  }
+
+  .bg {
+    width: 250px;
+    height: 250px;
+    margin-top: 1rem;
+  }
+
+  .introContent {
+    font-size: 8vw;
+    align-items: center;
+  }
+
+  .hello {
+    font-size: 4vw;
+  }
+}
+
+/* MOBILE */
+@media screen and (max-width: 480px) {
+  .bg {
+    width: 200px;
+    height: 200px;
+  }
+
+  .introContent {
+    font-size: 9vw;
+    padding: 1rem;
+  }
+
+  .introPara {
+    font-size: 0.9rem;
+  }
+}
