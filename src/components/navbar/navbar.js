@@ -17,7 +17,7 @@ const Navbar = () => {
           spy={true}
           smooth={true}
           offset={-50}
-          duration={500}
+          duration={50}
           className="desktopMenuListItem"
         >
           Home
@@ -28,7 +28,7 @@ const Navbar = () => {
           spy={true}
           smooth={true}
           offset={-50}
-          duration={500}
+          duration={50}
           className="desktopMenuListItem"
         >
           About
@@ -39,7 +39,7 @@ const Navbar = () => {
           spy={true}
           smooth={true}
           offset={-50}
-          duration={500}
+          duration={50}
           className="desktopMenuListItem"
         >
           Skills
@@ -66,7 +66,7 @@ const Navbar = () => {
           spy={true}
           smooth={true}
           offset={-50}
-          duration={500}
+          duration={50}
           className="listItem"
           onClick={() => setShowMenu(false)}
         >
@@ -78,7 +78,7 @@ const Navbar = () => {
           spy={true}
           smooth={true}
           offset={-50}
-          duration={500}
+          duration={50}
           className="listItem"
           onClick={() => setShowMenu(false)}
         >
@@ -90,7 +90,7 @@ const Navbar = () => {
           spy={true}
           smooth={true}
           offset={-50}
-          duration={500}
+          duration={50}
           className="listItem"
           onClick={() => setShowMenu(false)}
         >
