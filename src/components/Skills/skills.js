@@ -15,10 +15,9 @@ import SQLImg from "../../assets/SQL.png";
 const Skills = () => {
   return (
     <section id="skills">
-      <div className="container text-center">
-        <h2 className="aboutTitle">Skills</h2>
-
-        <div className="row justify-content-center">
+      <div className="container text-center mt-5">
+        <h1 className="pt-5 pb-5 Skill-title text-warning fw-bold">Skills</h1>
+        <div className="row justify-content-center pt-3">
           <div className="col-6 col-md-4 col-lg-3">
             <img src={HTMLImg} alt="HTML" className="skillImg" />
             <p>HTML</p>
@@ -39,7 +38,7 @@ const Skills = () => {
             <p>Node.js</p>
           </div>
         </div>
-        <div className="row justify-content-center">
+        <div className="row justify-content-center pb-5">
           <div className="col-6 col-md-4 col-lg-3">
             <img src={ExpressJsImg} alt="ExpressJs" className="skillImg" />
             <p>Express.js</p>
@@ -65,6 +64,7 @@ const Skills = () => {
             <p>SQL</p>
           </div>
         </div>
+        <hr />
       </div>
     </section>
   );

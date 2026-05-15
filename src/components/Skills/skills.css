@@ -11,3 +11,8 @@
 .skillImg:hover {
   transform: scale(1.1);
 }
+
+.Skill-title {
+  text-decoration: underline;
+  text-underline-offset: 10px;
+}

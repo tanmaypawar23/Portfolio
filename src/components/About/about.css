@@ -1,4 +1,4 @@
-#about {
+/* #about {
   width: 100%;
   min-height: 100vh;
   padding: 6rem 8%;
@@ -7,7 +7,7 @@
   align-items: center;
 }
 
-/* CONTAINER */
+
 .aboutContainer {
   width: 100%;
   max-width: 900px;
@@ -18,7 +18,7 @@
   box-shadow: 0 0 30px rgba(255, 255, 0, 0.05);
 }
 
-/* CONTENT */
+
 .aboutContent {
   display: flex;
   flex-direction: column;
@@ -26,7 +26,7 @@
   text-align: center;
 }
 
-/* HEADING */
+
 .aboutTitle {
   font-size: 3rem;
   color: yellow;
@@ -34,7 +34,7 @@
   position: relative;
 }
 
-/* UNDERLINE EFFECT */
+
 .aboutTitle::after {
   content: "";
   width: 80px;
@@ -47,7 +47,7 @@
   border-radius: 10px;
 }
 
-/* DESCRIPTION */
+
 .aboutDesc {
   font-size: 1.1rem;
   line-height: 2;
@@ -56,13 +56,13 @@
   max-width: 750px;
 }
 
-/* NAME HIGHLIGHT */
+
 .aboutDesc span {
   color: yellow;
   font-weight: 600;
 }
 
-/* BUTTON */
+
 .aboutBtn {
   margin-top: 1rem;
   padding: 0.9rem 2.2rem;
@@ -81,7 +81,6 @@
   box-shadow: 0 0 20px rgba(255, 255, 0, 0.4);
 }
 
-/* RESPONSIVE */
 @media screen and (max-width: 768px) {
   .aboutContainer {
     padding: 2rem;
@@ -114,4 +113,9 @@
     padding: 0.8rem 1.8rem;
     font-size: 0.9rem;
   }
+} */
+
+.aboutTitle {
+  text-decoration: underline;
+  text-underline-offset: 10px;
 }
