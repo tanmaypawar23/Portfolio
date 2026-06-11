@@ -31,7 +31,7 @@ const About = () => {
               with teams, managed responsibilities, and delivered quality
               solutions within deadlines.
             </p>
-            <p className="pb-5">
+            <p className="aboutDesc">
               Currently, I’m seeking a Web Development / Full-Stack Internship
               where I can apply my skills, solve real-world problems, learn from
               industry professionals, and continue growing as a developer.
