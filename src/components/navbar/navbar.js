@@ -46,7 +46,14 @@ const Navbar = () => {
         </Link>
         <Link className="desktopMenuListItem">projects</Link>
         <Link className="desktopMenuListItem">Experience</Link>
-        <Link className="desktopMenuListItem">Resume</Link>
+        <a
+          href="/Resume.pdf"
+          className="desktopMenuListItem"
+          target="_blank"
+          rel="noopener noreferrer" //noopener prevents the new tab from controlling your website.noreferrer hides information about the page that opened the link.
+        >
+          Resume
+        </a>
       </div>
       <button className="desktopMenuBtn">
         <img src={contactImg} alt="" className="desktopMenuImg" />
@@ -102,9 +109,14 @@ const Navbar = () => {
         <Link className="listItem" onClick={() => setShowMenu(false)}>
           Experience
         </Link>
-        <Link className="listItem" onClick={() => setShowMenu(false)}>
+        <a
+          href="/Resume.pdf"
+          className="listItem"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Resume
-        </Link>
+        </a>
         <Link className="listItem" onClick={() => setShowMenu(false)}>
           Contact
         </Link>
