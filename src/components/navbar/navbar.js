@@ -13,10 +13,10 @@ const Navbar = () => {
       <div className="desktopMenu">
         <Link
           activeClass="active"
-          to="intro"
+          to="home"
           spy={true}
           smooth={true}
-          offset={-50}
+          offset={-100}
           duration={50}
           className="desktopMenuListItem"
         >
@@ -69,7 +69,7 @@ const Navbar = () => {
       <div className="navMenu" style={{ display: showMenu ? "flex" : "none" }}>
         <Link
           activeClass="active"
-          to="intro"
+          to="home"
           spy={true}
           smooth={true}
           offset={-50}

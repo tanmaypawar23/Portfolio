@@ -1,0 +1,106 @@
+.info-container {
+  margin-top: 5rem;
+  padding-left: 5rem;
+}
+
+.greeting {
+  font-size: 1.2rem;
+  color: #ccc;
+  margin-bottom: 0;
+}
+
+.name {
+  font-size: 4rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  line-height: 1.1;
+}
+
+.role {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.about {
+  max-width: 600px;
+  color: #d1d1d1;
+  line-height: 1.7;
+}
+
+.img-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.bg {
+  margin-top: 3rem;
+  width: 350px;
+  max-width: 100%;
+  height: auto;
+}
+
+.listItem {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.item {
+  margin: 1rem;
+}
+
+.item h2 {
+  font-size: 2.5rem;
+}
+
+@media (max-width: 992px) {
+  .img-container {
+    justify-content: center;
+    margin-top: 2rem;
+  }
+
+  .info-container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-top: 1rem;
+    text-align: center;
+  }
+
+  .about {
+    margin: 0 auto;
+  }
+
+  .name {
+    font-size: 3rem;
+  }
+
+  .role {
+    font-size: 1.2rem;
+  }
+
+  .bg {
+    width: 300px;
+  }
+}
+
+@media (max-width: 576px) {
+  .name {
+    font-size: 2.3rem;
+  }
+
+  .role {
+    font-size: 1rem;
+  }
+
+  .bg {
+    width: 250px;
+  }
+
+  .item h2 {
+    font-size: 2rem;
+  }
+}
