@@ -37,8 +37,8 @@
 .bg {
   margin-top: 3rem;
   width: 350px;
-  max-width: 100%;
-  height: auto;
+  border-radius: 50%;
+  margin-right: 3rem;
 }
 
 .listItem {
@@ -98,6 +98,7 @@
 
   .bg {
     width: 250px;
+    margin-left: 3rem;
   }
 
   .item h2 {
