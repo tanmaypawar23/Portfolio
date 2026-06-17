@@ -47,7 +47,7 @@ const Navbar = () => {
         <Link className="desktopMenuListItem">projects</Link>
         <Link className="desktopMenuListItem">Experience</Link>
         <a
-          href="/Resume.pdf"
+          href="/TanmayPawar_Resume.pdf"
           className="desktopMenuListItem"
           target="_blank"
           rel="noopener noreferrer" //noopener prevents the new tab from controlling your website.noreferrer hides information about the page that opened the link.
@@ -110,7 +110,7 @@ const Navbar = () => {
           Experience
         </Link>
         <a
-          href="/Resume.pdf"
+          href="/TanmayPawar_Resume.pdf"
           className="listItem"
           target="_blank"
           rel="noopener noreferrer"
