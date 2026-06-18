@@ -1,6 +1,12 @@
+.home-wrapper {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
 .info-container {
   margin-top: 5rem;
-  padding-left: 5rem;
+  padding-left: 4rem;
 }
 
 .greeting {
@@ -30,15 +36,14 @@
 
 .img-container {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
 }
 
 .bg {
-  margin-top: 3rem;
   width: 350px;
   border-radius: 50%;
-  margin-right: 3rem;
+  margin-top: 3rem;
 }
 
 .listItem {
@@ -46,7 +51,7 @@
   justify-content: space-evenly;
   flex-wrap: wrap;
   text-align: center;
-  margin-top: 3rem;
+  margin-top: 4rem;
 }
 
 .item {
@@ -58,15 +63,10 @@
 }
 
 @media (max-width: 992px) {
-  .img-container {
-    justify-content: center;
-    margin-top: 2rem;
-  }
-
   .info-container {
     padding-left: 1rem;
     padding-right: 1rem;
-    margin-top: 1rem;
+    margin-top: 2rem;
     text-align: center;
   }
 
@@ -85,6 +85,10 @@
   .bg {
     width: 300px;
   }
+
+  .img-container {
+    margin-top: 2rem;
+  }
 }
 
 @media (max-width: 576px) {
@@ -98,7 +102,6 @@
 
   .bg {
     width: 250px;
-    margin-left: 3rem;
   }
 
   .item h2 {

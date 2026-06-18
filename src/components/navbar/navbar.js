@@ -8,7 +8,7 @@ import Menu from "../../assets/menu.png";
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
   return (
-    <nav className="navbar">
+    <nav className="navbar container">
       <img src={logo} alt="Logo" className="logo" />
       <div className="desktopMenu">
         <Link
